@@ -55,16 +55,5 @@
 }
 
 .row {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+    margin-top: 2rem;
 }
-
-/* .ply{
-    margin-right: -2rem !important;
-}
-
-.cmp{
-    margin-left: 11rem !important;
-} */
