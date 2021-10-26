@@ -5,6 +5,7 @@ let computerselection, playerselection;
 let playername;
 
 const start = document.querySelector('.readybutton');
+const playfunc = document.querySelector('.playagainbutton');
 let finalresult = document.querySelector('.result');
 const gamesection = document.querySelector('.option');
 let playerpoints = document.querySelector("#playerpoint");
@@ -19,6 +20,7 @@ start.addEventListener('click', startfunction);
 function startfunction() {
     document.getElementById("fullgame").style.display = "block";
     playername = prompt("Enter name: ", "Player Name");
+    document.getElementById("playbut").style.display = "none";
 }
 
 //Listening to User Options selection
@@ -103,8 +105,9 @@ function gameresult(computer, player) {
         // alert("You won!!")
     }
     finalresult.append(final);
-    finalresult.append(playagain);
-    playagain.addEventListener('click', restartgame);
+    document.getElementById("playbut").style.display = "initial";
+    finalresult.append(playfunc);
+    playfunc.addEventListener('click', restartgame);
     if (computer > player) {
         alert("You lose!!");
     }
@@ -120,11 +123,6 @@ function restartgame() {
     playerresult = 0;
     computerresult = 0;
     final.remove();
-    playagain.remove();
+    playfunc.remove();
     document.getElementById("fullgame").style.display = "none";
 }
-
-
-
-
-

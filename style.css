@@ -57,3 +57,9 @@
 .row {
     margin-top: 2rem;
 }
+
+#playgamefunc{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
