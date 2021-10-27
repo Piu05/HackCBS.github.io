@@ -55,7 +55,7 @@ and then move to the folder using this command:
 │   ├── img
 │   └── js
 ├── README.md
-└── index.html
-└── style.css
+├── index.html
+├── style.css
 └── main.js
 ````
