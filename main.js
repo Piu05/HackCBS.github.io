@@ -97,23 +97,17 @@ function gameresult(computer, player) {
     if (computer > player) {
         final.textContent = "Try again!! You lost";
         playagain.textContent = "Try Again";
-        // alert("You lose!!");
+        alert("You lose!!");
     }
     else {
         final.textContent = "YAYYYY!! You Won";
         playagain.textContent = "Play Again";
-        // alert("You won!!")
+        alert("You won!!");
     }
     finalresult.append(final);
     document.getElementById("playbut").style.display = "initial";
     finalresult.append(playfunc);
     playfunc.addEventListener('click', restartgame);
-    if (computer > player) {
-        alert("You lose!!");
-    }
-    else {
-        alert("You won!!")
-    }
 }
 
 //Restarts the Game
