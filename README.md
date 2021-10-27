@@ -1,4 +1,7 @@
 # **Roshambo**
+<p align="center">
+  <img src="./assets/img/roshambo.png" height="325px" width="325px" />
+</p>
 
 Our website [**myroshambo.me**](myroshambo.me) is a popular game Rock-Paper-Scissors adding some more features in it.
 
@@ -36,7 +39,7 @@ and then move to the folder using this command:
  
  * Either you can open with live server 
 
-## Or
+#### Or
 
  * Go to the website: [myroshoambo.me](https://www.myroshambo.me/)
 
