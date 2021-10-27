@@ -24,9 +24,9 @@ Our website [**myroshambo.me**](myroshambo.me) is a popular game Rock-Paper-Scis
 
 Make a new folder and open the terminal there.
 -write the following commands and press enter.
-```
-$git clone  https://github.com/<your-github-username>/Roshambo.git
-```
+ ```
+ $ git clone  https://github.com/<your-github-username>/Roshambo.git
+ ```
 and then move to the folder using this command:
 
  ````
